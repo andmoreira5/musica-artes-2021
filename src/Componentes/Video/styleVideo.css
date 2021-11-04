@@ -1,11 +1,10 @@
 video{
-    position: absolute;
+    position: fixed;
     width: 100%;
-    left: 50%;
-    top: 50%;
-    height: 100%;
+    left: 0;
+    top: 0;
+    height: 100vh;
     object-fit: cover;
-    transform: translate(-50%, -50%);
     z-index: -1;
     filter: brightness(30%);
 }

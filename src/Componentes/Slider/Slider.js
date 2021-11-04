@@ -1,6 +1,8 @@
 import React from "react";
 import M from 'materialize-css'
 import {Slider, Slide, Caption} from 'react-materialize'
+import musica from './musica.jpg';
+import teatro from './teatro.jpg'
 
 
 export default function Sliders(){
@@ -9,13 +11,13 @@ export default function Sliders(){
   fullscreen={false}
   options={{
     duration: 500,
-    height: 300,
-    indicators: true,
+    height: 250,
+    indicators: false,
     interval: 10000
   }}
 >
-  <Slide image={<img alt="" src="http://lorempixel.com/780/580/nature/1"/>}>
-    <Caption placement="center">
+  <Slide image={<img className="slid"alt="" src={musica}/>}>
+    <Caption placement="right">
       <h3>
         13 e 14 de novembro
       </h3>
@@ -24,7 +26,7 @@ export default function Sliders(){
       </h5>
     </Caption>
   </Slide>
-  <Slide image={<img alt="" src="http://lorempixel.com/780/580/nature/2"/>}>
+  <Slide image={<img className="slid" alt="" src={teatro}/>}>
     <Caption placement="left">
       <h3>
         Em Fortaleza - CE
@@ -34,17 +36,8 @@ export default function Sliders(){
       </h5>
     </Caption>
   </Slide>
-  <Slide image={<img alt="" src="https://lorempixel.com/780/580/nature/3"/>}>
-    <Caption placement="right">
-      <h3>
-        Online
-      </h3>
-      <h5 className="light grey-text text-lighten-3">
-        para demais irmãos.
-      </h5>
-    </Caption>
-  </Slide>
-  <Slide image={<img alt="" src="https://lorempixel.com/580/250/nature/4"/>}>
+  
+  <Slide image={<img alt="" src=""/>}>
     <Caption placement="center">
       <h3>
         Acompanhe o evento por aqui :-)

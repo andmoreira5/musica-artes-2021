@@ -1,5 +1,5 @@
 import React from 'react'
-import video from './lazaro.mp4'
+import video from './congMusica.mp4'
 import './styleVideo.css'
 
 export default function Video(){

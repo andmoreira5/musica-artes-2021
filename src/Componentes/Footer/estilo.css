@@ -1,0 +1,19 @@
+.logo{
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#developer{
+    padding:10px;
+}
+
+footer{
+    background-color: rgba(0, 0, 0,0) !important;
+}

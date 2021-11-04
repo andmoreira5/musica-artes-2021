@@ -15,7 +15,6 @@
 
 .App-header {
   
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,23 +43,51 @@
 
 h2{
   font-family: "estelle";
-  font-size: 100px !important;
+  font-size: 5em !important;
+  color: #aeffb1 !important;
 }
 
 h1{
-  font-size: 40px !important;
+  font-size: 2.1em !important;
 }
 
 .slider{
-  width: 70% !important;
+  width: 60% !important;
   margin-top: 80px;
 }
 
 .slider .slides{
   background-color: rgba(0, 0, 0, 0.3) !important;
-  border: white 1px solid;
+  border: white 0.5px solid;
 }
 
-img{
-  opacity: 0;
+.slid{
+  filter: brightness(40%);
+}
+
+@media screen and (width<500px) {
+  h1{
+    font-size: 1.1em !important;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  h2{
+    font-size: 4em !important;
+  }
+
+  .slider{
+    width: 80% !important;
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  h3{
+    font-size: 2em !important;
+  }
+
+  img{
+    
+  }
+
 }
