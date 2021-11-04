@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Video from './Componentes/Video/Video';
+import 'materialize-css/dist/css/materialize.min.css'
+import Sliders from './Componentes/Slider/Slider';
 
 function App() {
   return (
-    <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Video />
+        <h2>Bem-vindo(a)!</h2>
+        
+        <h1 className="center ">Encontro Estadual do Ministério de Música e Artes</h1>
+        <Sliders id="slides"/>
       </header>
-    </div>
   );
 }
 
