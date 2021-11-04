@@ -8,10 +8,10 @@ export default function Footer(){
         <footer class="page-footer ">
           <div class="container">
             <div class="row">
-              <div class="col l12 s12">
+              <div class="col l12 s12 center">
                 <img src={logo} className="logo " />
                 <div class="footer-copyright">
-                <div class="container grey darken-4">
+                <div class="container  center">
                       <a id="developer" href="mailto:and.moreira5@gmail.com" className="white-text">Desenvolvido por Anderson Moreira</a> 
                 </div>
             </div>
